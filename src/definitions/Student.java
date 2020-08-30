@@ -26,6 +26,15 @@ public class Student {
         this.namesOfBooksIssued = namesOfBooksIssued;
     }
 
+    public Student() {
+        this.firstName = "abc";
+        this.middleName = "stu";
+        this.lastName = "xyz";
+        this.universityRollNumber = 12345;
+        this.numberOfBooksIssued = 0;
+        this.namesOfBooksIssued = null;
+    }
+
     public String getFirstName() {
         return firstName;
     }
