@@ -11,7 +11,7 @@ import java.util.Arrays;
 public class Library {
     private Book[] availableBooks;
 
-    Library(Book[] availableBooks) {
+    public Library(Book[] availableBooks) {
         this.availableBooks = availableBooks;
     }
 
